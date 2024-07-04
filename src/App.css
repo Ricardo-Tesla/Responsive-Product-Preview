@@ -1,0 +1,100 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.custom-container {
+    background-color: white;
+    margin: 100px auto;
+    max-width: 850px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.img-fluid {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+
+.content {
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+
+.content p {
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+
+.price p {
+   
+    margin-right: 30px;
+}
+.price .discount{
+    font-size: 30px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+      color: hsl(158, 36%, 37%);
+}
+.original-price{
+    text-decoration: line-through;
+    
+}
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 10px !important;
+    padding: 10px;
+    width: 420px;
+    cursor: pointer;
+    margin-bottom: px;
+}
+
+button img {
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: rgb(15, 53, 15);
+}
+
+@media (min-width: 577px) {
+    .custom-container {
+        flex-direction: row;
+    }
+
+
+}
